@@ -18,10 +18,10 @@ public class HomePage extends Application {
     public void start(Stage stage) {
 
         TextField txtName = new TextField();
-        txtName.setPromptText("Player Name");
+        txtName.setPromptText("Player Name here");
 
         TextField txtJersey = new TextField();
-        txtJersey.setPromptText("Jersey Number");
+        txtJersey.setPromptText("Jersey Number here");
 
         TextField txtCountry = new TextField();
         txtCountry.setPromptText("Player Country");
