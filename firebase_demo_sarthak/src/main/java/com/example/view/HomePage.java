@@ -21,14 +21,14 @@ public class HomePage extends Application {
         txtName.setPromptText("Player Name");
 
         TextField txtJersey = new TextField();
-        txtJersey.setPromptText("Jersey Number");
+        txtJersey.setPromptText("Jersey No.");
 
         TextField txtCountry = new TextField();
         txtCountry.setPromptText("Player Country");
 
         Button btnAdd = new Button("Add Data To Firebase");
 
-        Button btnFetchAll = new Button("Fetch All Players");
+        Button btnFetchAll = new Button("Fetch All Players Data");
 
         Button btnFetch = new Button("Fetch Players");
 
